@@ -1,4 +1,3 @@
-````markdown
 # ScribThyroidSAM
 
 ## Installation
@@ -8,7 +7,6 @@
 ```bash
 conda create -n scribthyroidsam python=3.10 -y
 conda activate scribthyroidsam
-````
 
 2. Enter the `MedSAM` folder and install it:
 
@@ -109,11 +107,3 @@ python test.py --dataset TN3K --config configs/tn3k.yaml --checkpoint path/to/ch
 
 Before testing, please make sure that the checkpoint path and dataset path are correctly set.
 
-## Notes
-
-* Please make sure MedSAM is installed successfully before running the code.
-* GPU is recommended for both training and inference.
-* If dependency conflicts occur, it is recommended to use a clean virtual environment.
-
-```
-```
