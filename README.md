@@ -27,8 +27,8 @@ pip install -r requirements.txt
 
 The DDTI and TN3K datasets can be downloaded from the following links:
 
-* DDTI: [https://github.com/XXX/DDTI](https://github.com/XXX/DDTI)
-* TN3K: [https://github.com/XXX/TN3K](https://github.com/XXX/TN3K)
+* [DDTI](https://drive.google.com/file/d/1q5kY51I0OQOD9Pd7_oUKw5lGww47ltwP/view?usp=drive_link)
+* [TN3K]:(https://github.com/XXX/TN3K](https://drive.google.com/file/d/12mLXyauJlACOaDk-Ds85fM6f8bE49QfW/view?usp=drive_link)
 
 Please prepare the DDTI and TN3K datasets according to the following project directory structure before training:
 
