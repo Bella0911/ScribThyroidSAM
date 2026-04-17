@@ -22,13 +22,44 @@ pip install -e .
 ```bash
 pip install -r requirements.txt
 ```
+## Download Checkpoints
+
+Please download the required pretrained weights before training and testing.
+
+### MedSAM Weights
+
+Download the MedSAM pretrained weights from the official source:
+
+- MedSAM: https://github.com/bowang-lab/MedSAM
+
+After downloading, place the checkpoint file in the following directory:
+
+```text
+MedSAM/work_dir/
+````
+
+---
+
+### SegFormer Weights
+
+Download the pretrained SegFormer weights from:
+
+* SegFormer: [https://github.com/NVlabs/SegFormer](https://github.com/NVlabs/SegFormer)
+
+After downloading, place the checkpoint file in the following directory:
+
+```text
+weights/
+```
+
+
 
 ## Data Preparation
 
 The DDTI and TN3K datasets can be downloaded from the following links:
 
 * [DDTI](https://drive.google.com/file/d/1q5kY51I0OQOD9Pd7_oUKw5lGww47ltwP/view?usp=drive_link)
-* [TN3K]:(https://github.com/XXX/TN3K](https://drive.google.com/file/d/12mLXyauJlACOaDk-Ds85fM6f8bE49QfW/view?usp=drive_link)
+* [TN3K](https://drive.google.com/file/d/12mLXyauJlACOaDk-Ds85fM6f8bE49QfW/view?usp=drive_link)
 
 Please prepare the DDTI and TN3K datasets according to the following project directory structure before training:
 
