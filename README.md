@@ -28,7 +28,7 @@ Please download the required pretrained weights before training and testing.
 
 ### MedSAM Weights
 
-Download the MedSAM pretrained weights from the official source:
+Download the MedSAM pretrained weights medsam_vit_b.pth from the official source:
 
 - MedSAM: https://github.com/bowang-lab/MedSAM
 
@@ -42,7 +42,7 @@ MedSAM/work_dir/
 
 ### SegFormer Weights
 
-Download the pretrained SegFormer weights from:
+Download the pretrained SegFormer weights mit_b2.pth from:
 
 * SegFormer: [https://github.com/NVlabs/SegFormer](https://github.com/NVlabs/SegFormer)
 
